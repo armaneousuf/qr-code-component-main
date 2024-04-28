@@ -5,39 +5,44 @@
   --color-dark-blue: #1f3251;
 }
 
-body {
+* {
   margin: 0;
-  box-sizing: border-box;
   padding: 0;
-  font-family: "Outfit", sans-serif;
-  height: 100vh;
-  font-size: 15px;
 }
 
 img {
   max-width: 100%;
-  border-radius: 20px;
-  /* height: 300px; */
+  border-radius: 17px;
 }
 
-/* PROJECTS STARTS HERE */
-
-.container {
-  max-width: 1440px;
-  margin: 0 auto;
-  text-align: center;
+body {
+  font-family: 'Outfit', sans-serif;
   background-color: var(--color-light-gray);
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.box {
-  background-color: var(--color-white);
-  border-radius: 20px;
-  margin-top: 20px;
+.container {
+  max-width: 360px;
+  margin: 0 auto;
 }
 
-p {
+.card{
+  background-color: hsl(0, 0%, 100%);
+  padding: 18px;
+  border-radius: 17px;
+  text-align: center;
+  margin: 0 1em;
+}
+
+.texts h2 {
+  margin-top: 1rem;
+  color: var(--color-dark-blue);
+}
+
+.texts p {
+  margin-top: 1rem;
   color: var(--color-grayish-blue);
 }
